@@ -7,8 +7,12 @@ body {
 h1,
 h2,
 h3,
-h4,
+h4
+{
+  font-family: "Noto Serif", serif;
+}
+
 h5,
 h6 {
-  font-family: "Noto Serif", serif;
+    font-family: "Inter", sans-serif;
 }
