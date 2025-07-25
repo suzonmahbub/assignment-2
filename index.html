@@ -32,48 +32,50 @@
     <!-- header -->
     <header class="container mx-auto mt-7">
       <div class="flex justify-between items-center px-4 xl:px-0">
-        <figure class="cursor-pointer">
+        <a href="#">
           <img
             class="w-16 md:w-32 h-9 md:h-20 object-fill"
             src="./assets/logo.png"
             alt="logo"
           />
-        </figure>
+        </a>
 
         <div class="flex items-center gap-12">
           <div class="hidden sm:flex items-center gap-12">
-            <a href="#" class="hover:text-gray-900 capitalize font-medium"
+            <a
+              href="#"
+              class="text-gray-500 hover:text-gray-900 capitalize font-semibold"
               >home</a
             >
             <a
               href="#"
-              class="text-gray-500 capitalize hover:text-gray-900 font-medium"
+              class="text-gray-500 capitalize hover:text-gray-900 font-semibold"
               >shop</a
             >
             <a
               href="#"
-              class="text-gray-500 capitalize hover:text-gray-900 font-medium"
+              class="text-gray-500 capitalize hover:text-gray-900 font-semibold"
               >about us</a
             >
           </div>
 
           <button
-            class="flex items-center capitalize cursor-pointer font-normal"
+            class="flex gap-2 items-center capitalize cursor-pointer font-normal"
           >
             <img
-              class="w-6 h-4 object-contain"
+              class="w-6 h-6 object-fill"
               src="./assets/icons8-cart.gif"
               alt="cart"
             />
-            cart ($56)
+            <span>cart ($56)</span>
           </button>
         </div>
       </div>
 
       <!-- Banner -->
-      <div class="mt-10 lg:mt-28 flex flex-col-reverse lg:flex-row items-end">
+      <div class="mt-12 lg:mt-28 flex flex-col-reverse lg:flex-row items-end">
         <div class="lg:w-1/2 px-4 lg:px-0 mt-2 md:mt-0">
-          <h1 class="text-3xl md:text-6xl leading-snug font-bold uppercase">
+          <h1 class="text-3xl md:text-6xl leading-snug font-bold uppercase mt-7 lg:mt-0">
             always
             <span class="text-[#E95A08]"
               >fresh <br />
@@ -131,7 +133,8 @@
                 lily blossom
               </h5>
               <h6 class="sm:text-xl text-center font-bold uppercase">20 usd</h6>
-              <button onclick="alert('Flower Added to Cart 1')"
+              <button
+                onclick="alert('Flower Added to Cart 1')"
                 class="w-full bg-[#E95A08] text-white px-3 xl:px-20 py-3 lg:py-5 uppercase flex justify-center items-center cursor-pointer mt-5"
               >
                 add to cart
@@ -153,7 +156,8 @@
                 lily blossom
               </h5>
               <h6 class="sm:text-xl text-center font-bold uppercase">20 usd</h6>
-              <button onclick="alert('Flower Added to Cart 2')"
+              <button
+                onclick="alert('Flower Added to Cart 2')"
                 class="w-full bg-[#E95A08] text-white px-3 xl:px-20 py-3 lg:py-5 uppercase flex justify-center items-center cursor-pointer mt-5"
               >
                 add to cart
@@ -175,7 +179,8 @@
                 lily blossom
               </h5>
               <h6 class="sm:text-xl text-center font-bold uppercase">20 usd</h6>
-              <button onclick="alert('Flower Added to Cart 3')"
+              <button
+                onclick="alert('Flower Added to Cart 3')"
                 class="w-full bg-[#E95A08] text-white px-3 xl:px-20 py-3 lg:py-5 uppercase flex justify-center items-center cursor-pointer mt-5"
               >
                 add to cart
@@ -197,7 +202,8 @@
                 lily blossom
               </h5>
               <h6 class="sm:text-xl text-center font-bold uppercase">20 usd</h6>
-              <button onclick="alert('Flower Added to Cart 4')"
+              <button
+                onclick="alert('Flower Added to Cart 4')"
                 class="w-full bg-[#E95A08] text-white px-3 xl:px-20 py-3 lg:py-5 uppercase flex justify-center items-center cursor-pointer mt-5"
               >
                 add to cart
@@ -220,7 +226,8 @@
                 lily blossom
               </h5>
               <h6 class="sm:text-xl text-center font-bold uppercase">20 usd</h6>
-              <button onclick="alert('Flower Added to Cart 5')"
+              <button
+                onclick="alert('Flower Added to Cart 5')"
                 class="w-full bg-[#E95A08] text-white px-3 xl:px-20 py-3 lg:py-5 uppercase flex justify-center items-center cursor-pointer mt-5"
               >
                 add to cart
@@ -242,7 +249,8 @@
                 lily blossom
               </h5>
               <h6 class="sm:text-xl text-center font-bold uppercase">20 usd</h6>
-              <button onclick="alert('Flower Added to Cart 6')"
+              <button
+                onclick="alert('Flower Added to Cart 6')"
                 class="w-full bg-[#E95A08] text-white px-3 xl:px-20 py-3 lg:py-5 uppercase flex justify-center items-center cursor-pointer mt-5"
               >
                 add to cart
@@ -264,7 +272,8 @@
                 lily blossom
               </h5>
               <h6 class="sm:text-xl text-center font-bold uppercase">20 usd</h6>
-              <button onclick="alert('Flower Added to Cart 7')"
+              <button
+                onclick="alert('Flower Added to Cart 7')"
                 class="w-full bg-[#E95A08] text-white px-3 xl:px-20 py-3 lg:py-5 uppercase flex justify-center items-center cursor-pointer mt-5"
               >
                 add to cart
@@ -286,7 +295,8 @@
                 lily blossom
               </h5>
               <h6 class="sm:text-xl text-center font-bold uppercase">20 usd</h6>
-              <button onclick="alert('Flower Added to Cart 8')"
+              <button
+                onclick="alert('Flower Added to Cart 8')"
                 class="w-full bg-[#E95A08] text-white px-3 xl:px-20 py-3 lg:py-5 uppercase flex justify-center items-center cursor-pointer mt-5"
               >
                 add to cart
@@ -446,57 +456,72 @@
       </div>
 
       <!-- Join the colorful bunch -->
-       <div class="bg-[url(./assets/news-letter-bg.png)] bg-cover">
-          <div class="max-w-3xl mx-auto py-8 md:py-48 px-6 xl:px-0">
-            <h2 class="text-2xl sm:text-5xl font-bold text-white text-center">Join the Colorful Bunch</h2>
-            <div class="flex mt-6">
-              <div class="w-full">
-                <input class="w-full bg-white px-5 py-3 sm:py-5 focus:outline-none" type="text" placeholder="Write email">
-              </div>
-              <button class="px-3 md:px-12 py-3 sm:py-5 bg-[#E95A08] text-white capitalize cursor-pointer">subscribe</button>
+      <div class="bg-[url(./assets/news-letter-bg.png)] bg-cover">
+        <div class="max-w-3xl mx-auto py-8 md:py-48 px-6 xl:px-0">
+          <h2 class="text-2xl sm:text-5xl font-bold text-white text-center">
+            Join the Colorful Bunch
+          </h2>
+          <div class="flex mt-6">
+            <div class="w-full">
+              <input
+                class="w-full bg-white px-5 py-3 sm:py-5 focus:outline-none"
+                type="text"
+                placeholder="Write email"
+              />
             </div>
+            <button
+              class="px-3 md:px-12 py-3 sm:py-5 bg-[#E95A08] text-white capitalize cursor-pointer"
+            >
+              subscribe
+            </button>
           </div>
-       </div>
+        </div>
+      </div>
     </main>
     <!-- Footer -->
-    <footer class="container mx-auto grid md:grid-cols-2 lg:grid-cols-4 gap-8 md:gap-16 lg:gap-28 py-12 px-4 xl:px-0">
-        <div>
-          <a href="#">
-            <img src="./assets/logo.png" alt="footer-logo">
-          </a>
-          <p class="text-gray-500 mt-4">Indulge your senses with the beauty and fragrance of our fresh flower shop. </p>
-        </div>
+    <footer
+      class="container mx-auto grid md:grid-cols-2 lg:grid-cols-4 gap-8 md:gap-16 lg:gap-28 py-12 px-4 xl:px-0"
+    >
+      <div>
+        <a href="#">
+          <img src="./assets/logo.png" alt="footer-logo" />
+        </a>
+        <p class="text-gray-500 mt-4">
+          Indulge your senses with the beauty and fragrance of our fresh flower
+          shop.
+        </p>
+      </div>
 
-        <div class="flex flex-col space-y-8">
-          <a href="#" class="text-gray-600 capitalize">home</a>
-          <a href="#" class="text-gray-600 capitalize">about us</a>
-          <a href="#" class="text-gray-600 capitalize">blog</a>
-          <a href="#" class="text-gray-600 uppercase">faq</a>
-          <a href="#" class="text-gray-600 capitalize">contact us</a>
-        </div>
+      <div class="flex flex-col space-y-8">
+        <a href="#" class="text-gray-600 capitalize">home</a>
+        <a href="#" class="text-gray-600 capitalize">about us</a>
+        <a href="#" class="text-gray-600 capitalize">blog</a>
+        <a href="#" class="text-gray-600 uppercase">faq</a>
+        <a href="#" class="text-gray-600 capitalize">contact us</a>
+      </div>
 
-        <div class="flex flex-col space-y-8">
-          <a href="#" class="text-gray-600 capitalize">features</a>
-          <a href="#" class="text-gray-600 capitalize">pricing</a>
-          <a href="#" class="text-gray-600 capitalize">privacy policy</a>
-          <a href="#" class="text-gray-600 capitalize">terms of service</a>
-          <a href="#" class="text-gray-600 capitalize">help center</a>
-        </div>
+      <div class="flex flex-col space-y-8">
+        <a href="#" class="text-gray-600 capitalize">features</a>
+        <a href="#" class="text-gray-600 capitalize">pricing</a>
+        <a href="#" class="text-gray-600 capitalize">privacy policy</a>
+        <a href="#" class="text-gray-600 capitalize">terms of service</a>
+        <a href="#" class="text-gray-600 capitalize">help center</a>
+      </div>
 
-        <div class="flex space-x-6">
-          <a href="#">
-            <img src="./assets/icon-linkedin.png" alt="icon-linkedin">
-          </a>
-          <a href="#" class="mt-2">
-            <img src="./assets/icon-twitter.png" alt="icon-twitter">
-          </a>
-          <a href="#">
-            <img src="./assets/icon-facebook.png" alt="icon-facebook">
-          </a>
-          <a href="#">
-            <img src="./assets/icon-youtube.png" alt="icon-youtube">
-          </a>
-        </div>
+      <div class="flex space-x-6">
+        <a href="#">
+          <img src="./assets/icon-linkedin.png" alt="icon-linkedin" />
+        </a>
+        <a href="#" class="mt-2">
+          <img src="./assets/icon-twitter.png" alt="icon-twitter" />
+        </a>
+        <a href="#">
+          <img src="./assets/icon-facebook.png" alt="icon-facebook" />
+        </a>
+        <a href="#">
+          <img src="./assets/icon-youtube.png" alt="icon-youtube" />
+        </a>
+      </div>
     </footer>
   </body>
 </html>
